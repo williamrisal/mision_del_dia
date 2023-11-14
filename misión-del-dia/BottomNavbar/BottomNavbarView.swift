@@ -1,25 +1,35 @@
 import SwiftUI
 
 struct BottomNavbarView: View {
-    @State var loadIntertial = false
+    @Binding var viewLoad: Int
+    @State private var selectedTab = 1
+
     var body: some View {
-        TabView {
-            NavigationView {
-
+        TabView(selection: $selectedTab) {
+                NavigationView {
+                }
+                .tabItem {
+                    Image(systemName: "tablecells")
+                }
+                .tag(0)
+                
+                NavigationView { }
+                    .tabItem {
+                        Image(systemName: "tablecells")
+                    }
+                    .tag(1)
+                
+                NavigationView { }
+                    .tabItem {
+                        Image(systemName: "tablecells")
+                    }
+                    .tag(2)
+                    .background(Color.yellow)
             }
-            .tabItem {
-                Image(systemName: "slider.vertical.3")
-                Text(NSLocalizedString("Tire Equivalence", comment: ""))
+        .onChange(of: selectedTab) { lastTab, newTab in
+            if (viewLoad == lastTab) {
+                viewLoad = newTab
             }
-            NavigationView {
-
-            }
-            .tabItem {
-                Image(systemName: "tablecells")
-                Text(NSLocalizedString("Correspondence Table", comment: ""))
-            }
-            }
-
-        
+        }
     }
 }
