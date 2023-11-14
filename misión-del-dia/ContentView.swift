@@ -7,18 +7,18 @@ struct ContentView: View {
         ZStack {
             BackgroundView()
 
-             VStack {
-                Spacer()
-                ScrollView {
-                     switch viewLoad {
-                     case 0:
-                        Text("mettre la premire view")
-                     case 1:
-                        Text("mettre la deuxieme view")
-                     case 2:
-                        Text("mettre la 3 view")
-                     default:
-                        Text("mettre la 1 view")
+            VStack {
+                VStack {
+                    switch viewLoad {
+                    case 0:
+                        Text("0")
+                    case 1:
+                        Text("1")
+                        ClassementView()
+                    case 2:
+                        Text("2")
+                    default:
+                        Text("1")
                     }
                 }
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 50)

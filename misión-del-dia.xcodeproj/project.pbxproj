@@ -16,6 +16,7 @@
 		7A3438A32B012F190025629D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A22B012F190025629D /* BlurView.swift */; };
 		7A3438A62B012F390025629D /* Ressources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A52B012F390025629D /* Ressources.swift */; };
 		7A3438A82B012F540025629D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A72B012F540025629D /* BackgroundView.swift */; };
+		7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7A3438A22B012F190025629D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		7A3438A52B012F390025629D /* Ressources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ressources.swift; sourceTree = "<group>"; };
 		7A3438A72B012F540025629D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		7A34388B2B0128A00025629D /* misión-del-dia */ = {
 			isa = PBXGroup;
 			children = (
+				7AE4B58A2B03B04F00FC91DB /* Classement */,
 				7A3438A42B012F290025629D /* Ressources */,
 				7A34389D2B012CBA0025629D /* BottomNavbar */,
 				7A34388C2B0128A00025629D /* misio_n_del_diaApp.swift */,
@@ -69,8 +72,6 @@
 				7A3438902B0128A50025629D /* Assets.xcassets */,
 				7A3438922B0128A50025629D /* misio_n_del_dia.entitlements */,
 				7A3438932B0128A50025629D /* Preview Content */,
-				7A34389B2B0129C80025629D /* ProfilView.swift */,
-				7A3438A22B012F190025629D /* BlurView.swift */,
 			);
 			path = "misión-del-dia";
 			sourceTree = "<group>";
@@ -94,10 +95,20 @@
 		7A3438A42B012F290025629D /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				7A34389B2B0129C80025629D /* ProfilView.swift */,
+				7A3438A22B012F190025629D /* BlurView.swift */,
 				7A3438A52B012F390025629D /* Ressources.swift */,
 				7A3438A72B012F540025629D /* BackgroundView.swift */,
 			);
 			path = Ressources;
+			sourceTree = "<group>";
+		};
+		7AE4B58A2B03B04F00FC91DB /* Classement */ = {
+			isa = PBXGroup;
+			children = (
+				7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */,
+			);
+			path = Classement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A34388F2B0128A00025629D /* ContentView.swift in Sources */,
+				7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */,
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
 				7A3438A32B012F190025629D /* BlurView.swift in Sources */,
 				7A3438A82B012F540025629D /* BackgroundView.swift in Sources */,

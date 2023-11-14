@@ -33,3 +33,4 @@ struct BottomNavbarView: View {
         .shadow(radius: 7)
     }
 }
+
