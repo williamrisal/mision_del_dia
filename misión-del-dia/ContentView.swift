@@ -16,6 +16,7 @@ struct ContentView: View {
                         Text("0")
                     case 1:
                         Text("1")
+                        ClassementView()
                     case 2:
                         Text("2")
                     default:
@@ -33,3 +34,8 @@ struct ContentView: View {
     }
 }
 
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
