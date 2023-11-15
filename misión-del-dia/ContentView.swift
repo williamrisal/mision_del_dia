@@ -5,26 +5,22 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-            BackgroundView()
+            viewLoad == 0 ? BackgroundView(value: 0) : viewLoad == 1 ? BackgroundView(value: 1) : BackgroundView(value: 2)
 
             VStack {
-                VStack {
-                    switch viewLoad {
-                    case 0:
-                        Text("0")
-                    case 1:
-                        ClassementView()
-                            .padding(20)
-                    case 2:
-                        Text("2")
-                    default:
-                        Text("1")
-                    }
+                switch viewLoad {
+                case 0:
+                    RewardView()
+                case 1:
+                    ClassementView()
+                        .padding(20)
+                case 2:
+                    Text("2")
+                default:
+                    Text("1")
                 }
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 50)
             }
-             .background(viewLoad == 0 ? .red : viewLoad == 1 ? .green : .blue)
-             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 50)
             BottomNavbarView(viewLoad: $viewLoad)
                 .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2.2)
                 .frame(height: (10 / 100) * UIScreen.main.bounds.height)

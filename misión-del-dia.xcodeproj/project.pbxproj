@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175DB53C2B052214008A0D83 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DB53B2B052214008A0D83 /* Reward.swift */; };
 		7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34388C2B0128A00025629D /* misio_n_del_diaApp.swift */; };
 		7A34388F2B0128A00025629D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34388E2B0128A00025629D /* ContentView.swift */; };
 		7A3438912B0128A50025629D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3438902B0128A50025629D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		175DB53B2B052214008A0D83 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
 		7A3438892B0128A00025629D /* misión-del-dia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "misión-del-dia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A34388C2B0128A00025629D /* misio_n_del_diaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = misio_n_del_diaApp.swift; sourceTree = "<group>"; };
 		7A34388E2B0128A00025629D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		175DB53A2B0521DF008A0D83 /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				175DB53B2B052214008A0D83 /* Reward.swift */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
 		7A3438802B0128A00025629D = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				7AE4B58A2B03B04F00FC91DB /* Classement */,
+				175DB53A2B0521DF008A0D83 /* Reward */,
 				7A3438A42B012F290025629D /* Ressources */,
 				7A34389D2B012CBA0025629D /* BottomNavbar */,
 				7A34388C2B0128A00025629D /* misio_n_del_diaApp.swift */,
@@ -182,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A34388F2B0128A00025629D /* ContentView.swift in Sources */,
+				175DB53C2B052214008A0D83 /* Reward.swift in Sources */,
 				7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */,
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
 				7A3438A32B012F190025629D /* BlurView.swift in Sources */,
