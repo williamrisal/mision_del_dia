@@ -15,8 +15,8 @@ struct ContentView: View {
                     case 0:
                         Text("0")
                     case 1:
-                        Text("1")
                         ClassementView()
+                            .padding(20)
                     case 2:
                         Text("2")
                     default:
