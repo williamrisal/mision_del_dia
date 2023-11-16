@@ -17,6 +17,9 @@
 		7A3438A32B012F190025629D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A22B012F190025629D /* BlurView.swift */; };
 		7A3438A62B012F390025629D /* Ressources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A52B012F390025629D /* Ressources.swift */; };
 		7A3438A82B012F540025629D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A72B012F540025629D /* BackgroundView.swift */; };
+		7A7E611C2B06667500ACA957 /* grade1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E611B2B06667500ACA957 /* grade1.png */; };
+		7A7E611E2B06667C00ACA957 /* grade2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E611D2B06667C00ACA957 /* grade2.png */; };
+		7A7E61202B06668200ACA957 /* grade3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E611F2B06668200ACA957 /* grade3.png */; };
 		7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,9 @@
 		7A3438A22B012F190025629D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		7A3438A52B012F390025629D /* Ressources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ressources.swift; sourceTree = "<group>"; };
 		7A3438A72B012F540025629D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		7A7E611B2B06667500ACA957 /* grade1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grade1.png; path = ../../../../../../Downloads/grade1.png; sourceTree = "<group>"; };
+		7A7E611D2B06667C00ACA957 /* grade2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grade2.png; path = ../../../../../../Downloads/grade2.png; sourceTree = "<group>"; };
+		7A7E611F2B06668200ACA957 /* grade3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grade3.png; path = ../../../../../../Downloads/grade3.png; sourceTree = "<group>"; };
 		7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +80,8 @@
 		7A34388B2B0128A00025629D /* misión-del-dia */ = {
 			isa = PBXGroup;
 			children = (
+				7A7E610D2B06557B00ACA957 /* Tools */,
+				7A7E61032B06530000ACA957 /* Assets */,
 				7AE4B58A2B03B04F00FC91DB /* Classement */,
 				175DB53A2B0521DF008A0D83 /* Reward */,
 				7A3438A42B012F290025629D /* Ressources */,
@@ -114,6 +122,23 @@
 			path = Ressources;
 			sourceTree = "<group>";
 		};
+		7A7E61032B06530000ACA957 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E611F2B06668200ACA957 /* grade3.png */,
+				7A7E611D2B06667C00ACA957 /* grade2.png */,
+				7A7E611B2B06667500ACA957 /* grade1.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7A7E610D2B06557B00ACA957 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		7AE4B58A2B03B04F00FC91DB /* Classement */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +163,8 @@
 			dependencies = (
 			);
 			name = "misión-del-dia";
+			packageProductDependencies = (
+			);
 			productName = "misión-del-dia";
 			productReference = 7A3438892B0128A00025629D /* misión-del-dia.app */;
 			productType = "com.apple.product-type.application";
@@ -166,6 +193,10 @@
 				Base,
 			);
 			mainGroup = 7A3438802B0128A00025629D;
+			packageReferences = (
+				7A7E61062B0653E300ACA957 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				7A7E61102B06560A00ACA957 /* XCRemoteSwiftPackageReference "Macaw" */,
+			);
 			productRefGroup = 7A34388A2B0128A00025629D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,7 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7E61202B06668200ACA957 /* grade3.png in Resources */,
 				7A3438952B0128A50025629D /* Preview Assets.xcassets in Resources */,
+				7A7E611C2B06667500ACA957 /* grade1.png in Resources */,
+				7A7E611E2B06667C00ACA957 /* grade2.png in Resources */,
 				7A3438912B0128A50025629D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +453,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A7E61062B0653E300ACA957 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+		7A7E61102B06560A00ACA957 /* XCRemoteSwiftPackageReference "Macaw" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/Macaw.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 7A3438812B0128A00025629D /* Project object */;
 }

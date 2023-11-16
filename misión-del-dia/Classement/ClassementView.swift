@@ -33,17 +33,24 @@ struct ClassementView: View {
                     ZStack {
                         HStack {
                             HStack{
-                                Image(systemName: "person")
-                                    .resizable()
-                                    .frame(width: 30, height: 30)
-                                    .foregroundColor(.gray)
+                                HStack{
+                                    Image(systemName: "person")
+                                        .resizable()
+                                        .frame(width: 30, height: 30)
+                                        .foregroundColor(.gray)
+                                }
+                                .frame(width: 50, height: 50)
+                                .clipShape(Circle())
+                                .overlay(Circle().stroke(Color.blue, lineWidth: 2))
+                                VStack{
+                                    Image("grade\(index + 1)")
+                                        .resizable()
+                                        .frame(width: 20, height: 35)
+                                        .foregroundColor(.gray)
+                                        .padding(.leading,-25)
+                                        .padding(.top, 40)
+                                }
                             }
-                            .frame(width: 50, height: 50)
-                            .clipShape(Circle())
-                            .overlay(Circle().stroke(Color.blue, lineWidth: 2))
-                            Text("\(index + 1)")
-                                .foregroundColor(.black)
-                                .offset(x: -10, y: 0)
                             VStack(alignment: .leading) {
                                 Text(player.MainName)
 
