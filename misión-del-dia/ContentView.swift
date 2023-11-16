@@ -13,7 +13,6 @@ struct ContentView: View {
                     RewardView()
                 case 1:
                     ClassementView()
-                        .padding(20)
                 case 2:
                     Text("2")
                 default:

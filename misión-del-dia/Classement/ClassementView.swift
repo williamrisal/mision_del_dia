@@ -39,9 +39,9 @@ struct ClassementView: View {
                                         .frame(width: 30, height: 30)
                                         .foregroundColor(.gray)
                                 }
-                                .frame(width: 50, height: 50)
+                                .frame(width: 70, height: 70)
                                 .clipShape(Circle())
-                                .overlay(Circle().stroke(Color.blue, lineWidth: 2))
+                                .overlay(Circle().stroke(Color.white, lineWidth: 2))
                                 VStack{
                                     Image("grade\(index + 1)")
                                         .resizable()
@@ -53,9 +53,10 @@ struct ClassementView: View {
                             }
                             VStack(alignment: .leading) {
                                 Text(player.MainName)
-
+                                    .foregroundColor(.white)
+                                    .bold()
                                 Text(player.Pseudo)
-                                    .foregroundColor(.gray)
+                                    .foregroundColor(.white)
                                     .padding(.leading, 15)
                                 Button(action: {}) {
                                     Text(String(player.score) + " 💰")
@@ -63,22 +64,27 @@ struct ClassementView: View {
                                         .padding(4)
                                         .foregroundColor(.white)
                                         .background(.orange)
-                                        .cornerRadius(40)
+                                        .cornerRadius(80)
                                 }
                             }
                             Spacer()
                             VStack{
                                 Image(systemName: "play.circle").resizable(resizingMode: .stretch)
                                     .frame(width : 40, height: 40)
-                                    .foregroundColor(.gray)
-                                Text("\(player.scoreVue / 1000)" + "K")
-                                    .foregroundColor(.blue)
+                                    .foregroundColor(.white)
+                                Text("\(player.scoreVue / 1000)" + " K")
+                                    .foregroundColor(.white)
                             }
                         }
                     }
                 }
+                .listRowSeparatorTint(.white)
+                .listRowBackground(Color.clear) // Rend le fond de chaque élément transparent
+
             }
+            .listRowSeparatorTint(.white)
             .scrollContentBackground(.hidden)
+            
         }
     }
 }
