@@ -49,9 +49,7 @@ struct BuyView: View {
                     Spacer()
                 }
                 .frame(maxHeight: (75 / 100) * UIScreen.main.bounds.height)
-                
-                Text("Description: blablabla")
-                    .foregroundColor(.white)
+             
             }
             Spacer()
         }
