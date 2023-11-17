@@ -1,5 +1,6 @@
 // ContentView.swift
 import SwiftUI
+
 struct ContentView: View {
     @State private var viewLoad = 1
 
@@ -7,6 +8,7 @@ struct ContentView: View {
         ZStack {
             BackgroundView()
 
+<<<<<<< Updated upstream
              VStack {
                 Spacer()
                 ScrollView {
@@ -20,6 +22,19 @@ struct ContentView: View {
                      default:
                         Text("mettre la 1 view")
                     }
+=======
+            VStack {
+                switch viewLoad {
+                case 0:
+                    RewardView()
+                case 1:
+                    ClassementView()
+                        .padding(20)
+                case 2:
+                    Text("2")
+                default:
+                    Text("1")
+>>>>>>> Stashed changes
                 }
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 50)
             }
