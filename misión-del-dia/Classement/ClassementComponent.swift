@@ -31,7 +31,8 @@ struct ClassementComponent: View {
         
         ZStack {
             List {
-                ForEach (Array(players.sorted(by: { $0.scoreVue > $1.scoreVue }).enumerated()), id: \.1.id) { index, player in
+                
+                ForEach(Array((ButtonActivate ? Array(players.prefix(3)) : Array(players)).sorted(by: { $0.scoreVue > $1.scoreVue }).enumerated()), id: \.1.id) { index, player in
                     ZStack {
                         HStack {
                             HStack{
