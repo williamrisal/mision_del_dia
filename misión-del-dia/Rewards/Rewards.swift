@@ -29,7 +29,7 @@ struct RewardsView: View {
             ScrollView {
                 VStack(spacing: 35) {
                     ForEach((0..<rewards.count).indices, id: \.self) { index in
-                        RewardView(isTapped: $isTapped, index: index, name: rewards[index].Name, sold: sold, price: rewards[index].Price)
+                     //   RewardsView(isTapped: $isTapped, index: index, name: rewards[index].Name, sold: sold, price: rewards[index].Price)
                     }
                 }
                 .padding(.top, (8 / 100) * UIScreen.main.bounds.height)
@@ -39,7 +39,7 @@ struct RewardsView: View {
             ZStack {
                 HStack {
                     Spacer()
-                    SoldView()
+                    //SoldView()
                 }
                 .padding(15)
                 .frame(height: (10 / 100) * UIScreen.main.bounds.height)
@@ -50,7 +50,7 @@ struct RewardsView: View {
             if isTapped != 0 {
                 Color.black.opacity(0.96)
                     .edgesIgnoringSafeArea(.all)
-                BuyView(isTapped: $isTapped, sold: sold, name: "\(rewards[isTapped - 1].Name)", price: rewards[isTapped - 1].Price)
+             //   BuyView(isTapped: $isTapped, sold: sold, name: "\(rewards[isTapped - 1].Name)", price: rewards[isTapped - 1].Price)
             }
         }
     }

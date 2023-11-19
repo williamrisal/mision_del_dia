@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		175DB53C2B052214008A0D83 /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DB53B2B052214008A0D83 /* Rewards.swift */; };
-		17941E482B07B57D006DCA44 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17941E472B07B57D006DCA44 /* Reward.swift */; };
-		17941E4A2B07B85D006DCA44 /* Sold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17941E492B07B85D006DCA44 /* Sold.swift */; };
-		17941E4C2B07D794006DCA44 /* Buy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17941E4B2B07D794006DCA44 /* Buy.swift */; };
 		7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A62D2B078272007B198D /* ClassementDetaileView.swift */; };
 		7A07A6322B078469007B198D /* ClassementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A6312B078469007B198D /* ClassementComponent.swift */; };
 		7A07A6372B0A93B9007B198D /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A6362B0A93B9007B198D /* SquareView.swift */; };
@@ -29,8 +26,6 @@
 
 /* Begin PBXFileReference section */
 		175DB53B2B052214008A0D83 /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
-		17941E472B07B57D006DCA44 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reward.swift; path = "../../../../../.Trash/mision_del_dia 15.44.19/misión-del-dia/Reward.swift"; sourceTree = "<group>"; };
-		17941E492B07B85D006DCA44 /* Sold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sold.swift; path = "../../../../.Trash/mision_del_dia 15.44.19/misión-del-dia/Sold.swift"; sourceTree = "<group>"; };
 		17941E4B2B07D794006DCA44 /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
 		7A07A62D2B078272007B198D /* ClassementDetaileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementDetaileView.swift; sourceTree = "<group>"; };
 		7A07A6312B078469007B198D /* ClassementComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementComponent.swift; sourceTree = "<group>"; };
@@ -65,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				175DB53B2B052214008A0D83 /* Rewards.swift */,
-				17941E472B07B57D006DCA44 /* Reward.swift */,
 				17941E4B2B07D794006DCA44 /* Buy.swift */,
 			);
 			path = Rewards;
@@ -110,7 +104,6 @@
 				7A3438902B0128A50025629D /* Assets.xcassets */,
 				7A3438922B0128A50025629D /* misio_n_del_dia.entitlements */,
 				7A3438932B0128A50025629D /* Preview Content */,
-				17941E492B07B85D006DCA44 /* Sold.swift */,
 			);
 			path = "misión-del-dia";
 			sourceTree = "<group>";
@@ -245,17 +238,15 @@
 			files = (
 				7A34388F2B0128A00025629D /* ContentView.swift in Sources */,
 				7A07A6392B0A97AC007B198D /* ButtonGainComponent.swift in Sources */,
-				175DB53C2B052214008A0D83 /* Reward.swift in Sources */,
+				175DB53C2B052214008A0D83 /* Rewards.swift in Sources */,
 				7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */,
 				7A07A6372B0A93B9007B198D /* SquareView.swift in Sources */,
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
-				17941E482B07B57D006DCA44 /* Reward.swift in Sources */,
 				7A3438A32B012F190025629D /* BlurView.swift in Sources */,
 				7A3438A82B012F540025629D /* BackgroundView.swift in Sources */,
 				7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */,
 				7A3438A62B012F390025629D /* Ressources.swift in Sources */,
 				7A34389C2B0129C80025629D /* ProfilView.swift in Sources */,
-				17941E4A2B07B85D006DCA44 /* Sold.swift in Sources */,
 				7A07A6322B078469007B198D /* ClassementComponent.swift in Sources */,
 				7A3438A12B012DA30025629D /* BottomNavbarView.swift in Sources */,
 			);
