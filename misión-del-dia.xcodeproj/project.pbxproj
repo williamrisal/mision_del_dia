@@ -10,6 +10,8 @@
 		175DB53C2B052214008A0D83 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DB53B2B052214008A0D83 /* Reward.swift */; };
 		7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A62D2B078272007B198D /* ClassementDetaileView.swift */; };
 		7A07A6322B078469007B198D /* ClassementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A6312B078469007B198D /* ClassementComponent.swift */; };
+		7A07A6372B0A93B9007B198D /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A6362B0A93B9007B198D /* SquareView.swift */; };
+		7A07A6392B0A97AC007B198D /* ButtonGainComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A6382B0A97AC007B198D /* ButtonGainComponent.swift */; };
 		7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34388C2B0128A00025629D /* misio_n_del_diaApp.swift */; };
 		7A34388F2B0128A00025629D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34388E2B0128A00025629D /* ContentView.swift */; };
 		7A3438912B0128A50025629D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3438902B0128A50025629D /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 		175DB53B2B052214008A0D83 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
 		7A07A62D2B078272007B198D /* ClassementDetaileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementDetaileView.swift; sourceTree = "<group>"; };
 		7A07A6312B078469007B198D /* ClassementComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementComponent.swift; sourceTree = "<group>"; };
+		7A07A6362B0A93B9007B198D /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		7A07A6382B0A97AC007B198D /* ButtonGainComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGainComponent.swift; sourceTree = "<group>"; };
 		7A3438892B0128A00025629D /* misión-del-dia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "misión-del-dia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A34388C2B0128A00025629D /* misio_n_del_diaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = misio_n_del_diaApp.swift; sourceTree = "<group>"; };
 		7A34388E2B0128A00025629D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,14 @@
 			path = Reward;
 			sourceTree = "<group>";
 		};
+		7A07A6352B0A93AC007B198D /* MissionSquareView */ = {
+			isa = PBXGroup;
+			children = (
+				7A07A6362B0A93B9007B198D /* SquareView.swift */,
+			);
+			path = MissionSquareView;
+			sourceTree = "<group>";
+		};
 		7A3438802B0128A00025629D = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +96,7 @@
 		7A34388B2B0128A00025629D /* misión-del-dia */ = {
 			isa = PBXGroup;
 			children = (
+				7A07A6352B0A93AC007B198D /* MissionSquareView */,
 				7A7E610D2B06557B00ACA957 /* Tools */,
 				7A7E61032B06530000ACA957 /* Assets */,
 				7AE4B58A2B03B04F00FC91DB /* Classement */,
@@ -139,6 +152,7 @@
 		7A7E610D2B06557B00ACA957 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				7A07A6382B0A97AC007B198D /* ButtonGainComponent.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -233,8 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A34388F2B0128A00025629D /* ContentView.swift in Sources */,
+				7A07A6392B0A97AC007B198D /* ButtonGainComponent.swift in Sources */,
 				175DB53C2B052214008A0D83 /* Reward.swift in Sources */,
 				7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */,
+				7A07A6372B0A93B9007B198D /* SquareView.swift in Sources */,
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
 				7A3438A32B012F190025629D /* BlurView.swift in Sources */,
 				7A3438A82B012F540025629D /* BackgroundView.swift in Sources */,

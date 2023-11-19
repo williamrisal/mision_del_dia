@@ -12,7 +12,10 @@ struct ContentView: View {
                 case 0:
                     RewardView()
                 case 1:
-                    ClassementView()
+                    VStack{
+                        SquareView()
+                        ClassementView()
+                    }.padding(.vertical, 40)
                 case 2:
                     Text("2")
                 default:

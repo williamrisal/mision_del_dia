@@ -62,19 +62,8 @@ struct ClassementComponent: View {
                                     .foregroundColor(.white)
                                     .opacity(0.9)
 
-                                Button(action: {}) {
-                                    Text(String(player.score) + " 💰")
-                                        .font(.subheadline)
-                                        .bold()
-                                        .padding(10)
-                                        .foregroundColor(.black)
-                                        .background(Color.orange)
-                                        .cornerRadius(80)
-                                }
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 80)
-                                        .stroke(Color.gray, lineWidth: 3)
-                                )
+
+                                ButtonGainComponent(TextButton: String(player.score))
 
                             }
                             Spacer()
