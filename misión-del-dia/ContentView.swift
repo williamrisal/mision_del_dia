@@ -1,7 +1,7 @@
 // ContentView.swift
 import SwiftUI
 struct ContentView: View {
-    @State private var viewLoad = 1
+    @State private var viewLoad = 0 // a changer par 1
 
     var body: some View {
         ZStack {
@@ -10,7 +10,7 @@ struct ContentView: View {
             VStack {
                 switch viewLoad {
                 case 0:
-                    RewardView()
+                    RewardsView()
                 case 1:
                     VStack{
                         SquareView()
@@ -19,7 +19,7 @@ struct ContentView: View {
                 case 2:
                     Text("2")
                 default:
-                    Text("1")
+                    ClassementView()
                 }
             }
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 50)
