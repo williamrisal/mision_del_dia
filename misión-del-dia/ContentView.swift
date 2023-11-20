@@ -8,12 +8,15 @@ struct ContentView: View {
             viewLoad == 0 ? BackgroundView(value: 0) : viewLoad == 1 ? BackgroundView(value: 1) : BackgroundView(value: 2)
 
             VStack {
+                TopNavBarView()
                 switch viewLoad {
                 case 0:
                     RewardsView()
                 case 1:
                     VStack{
                         SquareView()
+                            .zIndex(1)
+
                         ClassementView()
                     }.padding(.vertical, 40)
                 case 2:

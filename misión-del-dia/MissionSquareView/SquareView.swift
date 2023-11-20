@@ -37,7 +37,7 @@ struct SquareView: View {
                 .opacity(0.9)
                 .frame(width: 360, height: 200)
                 .cornerRadius(15)
-                .shadow(color: Color.gray.opacity(0.6), radius: 5, x: 0, y: 2)
+                .shadow(color: Color.gray, radius: 5, x: 0, y: 2)
                 .overlay(
                     VStack{
                         Text("\"Venez en cours en pyjama\"")
@@ -53,7 +53,7 @@ struct SquareView: View {
                     .font(.subheadline)
                     .bold()
                     .frame(width: 100, height: 30)
-                    .padding(10)
+                    .padding(6)
                     .foregroundColor(.white)
                     .background(BackgroundView(value: 1))
                     .cornerRadius(80)
@@ -65,6 +65,7 @@ struct SquareView: View {
             ).padding(.top, -35)
 
         }
+        .padding(.top, -80)
     }
 }
 

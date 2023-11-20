@@ -13,6 +13,7 @@ struct ClassementView: View {
         ZStack {
             VStack{
                 ClassementComponent(ButtonActivate: true)
+                    .padding(.top, -30)
             }
         }
     }

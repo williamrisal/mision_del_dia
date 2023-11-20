@@ -17,10 +17,10 @@ struct ButtonGainComponent: View {
                 .padding(10)
                 .foregroundColor(.black)
                 .background(Color.orange)
-                .cornerRadius(80)
+                .cornerRadius(15)
         }
         .overlay(
-            RoundedRectangle(cornerRadius: 80)
+            RoundedRectangle(cornerRadius: 15)
                 .stroke(Color.gray, lineWidth: 3)
         )
     }

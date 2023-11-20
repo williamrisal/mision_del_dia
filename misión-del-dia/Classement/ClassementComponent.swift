@@ -18,11 +18,11 @@ struct ClassementComponent: View {
     }
     
     let players = [
-        Player(MainName: "@test1", Pseudo: "teston", score: 150, scoreVue: 400000, profileImageName: ""),
-        Player(MainName: "@test2", Pseudo: "testaa", score: 200, scoreVue: 2000, profileImageName: ""),
-        Player(MainName: "@test3", Pseudo: "testii", score: 180, scoreVue: 30000 ,profileImageName: ""),
-        Player(MainName: "@test4", Pseudo: "testuu", score: 2, scoreVue: 1000 ,profileImageName: ""),
-        Player(MainName: "@test5", Pseudo: "testee", score: 3945, scoreVue: 25000 ,profileImageName: ""),
+        Player(MainName: "@Bastien13", Pseudo: "Bastiendu13", score: 150, scoreVue: 400000, profileImageName: ""),
+        Player(MainName: "@matheo93", Pseudo: "MatheoLaMeteo", score: 200, scoreVue: 2000, profileImageName: ""),
+        Player(MainName: "@thibault69", Pseudo: "ThibaultLeRigolo", score: 180, scoreVue: 30000 ,profileImageName: ""),
+        Player(MainName: "@AngellinaBFF14", Pseudo: "AngelinatoSmile", score: 2, scoreVue: 1000 ,profileImageName: ""),
+        Player(MainName: "@johanGaming90", Pseudo: "GaminRTX", score: 3945, scoreVue: 25000 ,profileImageName: ""),
     ]
     @State private var isClassementDetailVisible = false
     @State var ButtonActivate: Bool
@@ -102,7 +102,6 @@ struct ClassementComponent: View {
                         Spacer()
                     }
                     .listRowBackground(Color.clear)
-                    .padding(.top, 30)
                 }
             }
             .scrollContentBackground(.hidden)

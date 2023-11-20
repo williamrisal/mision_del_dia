@@ -21,6 +21,7 @@
 		7A3438A32B012F190025629D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A22B012F190025629D /* BlurView.swift */; };
 		7A3438A62B012F390025629D /* Ressources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A52B012F390025629D /* Ressources.swift */; };
 		7A3438A82B012F540025629D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A72B012F540025629D /* BackgroundView.swift */; };
+		7AA4526B2B0B549300181E26 /* TopNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4526A2B0B549300181E26 /* TopNavBarView.swift */; };
 		7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		7A3438A22B012F190025629D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		7A3438A52B012F390025629D /* Ressources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ressources.swift; sourceTree = "<group>"; };
 		7A3438A72B012F540025629D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		7AA4526A2B0B549300181E26 /* TopNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavBarView.swift; sourceTree = "<group>"; };
 		7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 		7A34388B2B0128A00025629D /* misión-del-dia */ = {
 			isa = PBXGroup;
 			children = (
+				7AA452692B0B547500181E26 /* TopNavbar */,
 				7A07A6352B0A93AC007B198D /* MissionSquareView */,
 				7A7E610D2B06557B00ACA957 /* Tools */,
 				7A7E61032B06530000ACA957 /* Assets */,
@@ -150,6 +153,14 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		7AA452692B0B547500181E26 /* TopNavbar */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4526A2B0B549300181E26 /* TopNavBarView.swift */,
+			);
+			path = TopNavbar;
+			sourceTree = "<group>";
+		};
 		7AE4B58A2B03B04F00FC91DB /* Classement */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,16 +210,15 @@
 			};
 			buildConfigurationList = 7A3438842B0128A00025629D /* Build configuration list for PBXProject "misión-del-dia" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = es;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 7A3438802B0128A00025629D;
 			packageReferences = (
-				7A7E61062B0653E300ACA957 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
-				7A7E61102B06560A00ACA957 /* XCRemoteSwiftPackageReference "Macaw" */,
 			);
 			productRefGroup = 7A34388A2B0128A00025629D /* Products */;
 			projectDirPath = "";
@@ -244,6 +254,7 @@
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
 				7A3438A32B012F190025629D /* BlurView.swift in Sources */,
 				7A3438A82B012F540025629D /* BackgroundView.swift in Sources */,
+				7AA4526B2B0B549300181E26 /* TopNavBarView.swift in Sources */,
 				7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */,
 				7A3438A62B012F390025629D /* Ressources.swift in Sources */,
 				7A34389C2B0129C80025629D /* ProfilView.swift in Sources */,
@@ -467,25 +478,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7A7E61062B0653E300ACA957 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.1;
-			};
-		};
-		7A7E61102B06560A00ACA957 /* XCRemoteSwiftPackageReference "Macaw" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/exyte/Macaw.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.10;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 7A3438812B0128A00025629D /* Project object */;
 }
