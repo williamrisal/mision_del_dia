@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TopNavBarView: View {
+    @State private var show = false
+
     var body: some View {
         HStack{
             ButtonGainComponent(TextButton: "5000")
@@ -15,13 +17,22 @@ struct TopNavBarView: View {
             
             HStack{
                 Button(action: {
+                    self.show = true
                 }, label: {
                     Image(systemName: "bell")
                         .resizable()
                         .frame(width:25, height: 25)
                 })
                 .foregroundColor(.white)
-                    .opacity(0.8)
+                .opacity(0.8)
+                .popover(isPresented: self.$show,
+                         attachmentAnchor: .point(.center),
+                         arrowEdge: .top,
+                         content: {
+                    BellView()
+                        .presentationCompactAdaptation(.none)
+                })
+                
                 Button(action: {
                     
                 }, label: {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		175DB53C2B052214008A0D83 /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DB53B2B052214008A0D83 /* Rewards.swift */; };
+		7A042A6D2B0BE927000D7760 /* BubblePopupCOmponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A042A6C2B0BE927000D7760 /* BubblePopupCOmponent.swift */; };
+		7A042A6F2B0BEB46000D7760 /* BellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A042A6E2B0BEB46000D7760 /* BellView.swift */; };
 		7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A62D2B078272007B198D /* ClassementDetaileView.swift */; };
 		7A07A6322B078469007B198D /* ClassementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A6312B078469007B198D /* ClassementComponent.swift */; };
 		7A07A6372B0A93B9007B198D /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A6362B0A93B9007B198D /* SquareView.swift */; };
@@ -28,6 +30,8 @@
 /* Begin PBXFileReference section */
 		175DB53B2B052214008A0D83 /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
 		17941E4B2B07D794006DCA44 /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
+		7A042A6C2B0BE927000D7760 /* BubblePopupCOmponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopupCOmponent.swift; sourceTree = "<group>"; };
+		7A042A6E2B0BEB46000D7760 /* BellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellView.swift; sourceTree = "<group>"; };
 		7A07A62D2B078272007B198D /* ClassementDetaileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementDetaileView.swift; sourceTree = "<group>"; };
 		7A07A6312B078469007B198D /* ClassementComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementComponent.swift; sourceTree = "<group>"; };
 		7A07A6362B0A93B9007B198D /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				7A07A6382B0A97AC007B198D /* ButtonGainComponent.swift */,
+				7A042A6C2B0BE927000D7760 /* BubblePopupCOmponent.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				7AA4526A2B0B549300181E26 /* TopNavBarView.swift */,
+				7A042A6E2B0BEB46000D7760 /* BellView.swift */,
 			);
 			path = TopNavbar;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 				7A34388F2B0128A00025629D /* ContentView.swift in Sources */,
 				7A07A6392B0A97AC007B198D /* ButtonGainComponent.swift in Sources */,
 				175DB53C2B052214008A0D83 /* Rewards.swift in Sources */,
+				7A042A6F2B0BEB46000D7760 /* BellView.swift in Sources */,
 				7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */,
 				7A07A6372B0A93B9007B198D /* SquareView.swift in Sources */,
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
@@ -256,6 +263,7 @@
 				7A3438A82B012F540025629D /* BackgroundView.swift in Sources */,
 				7AA4526B2B0B549300181E26 /* TopNavBarView.swift in Sources */,
 				7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */,
+				7A042A6D2B0BE927000D7760 /* BubblePopupCOmponent.swift in Sources */,
 				7A3438A62B012F390025629D /* Ressources.swift in Sources */,
 				7A34389C2B0129C80025629D /* ProfilView.swift in Sources */,
 				7A07A6322B078469007B198D /* ClassementComponent.swift in Sources */,
