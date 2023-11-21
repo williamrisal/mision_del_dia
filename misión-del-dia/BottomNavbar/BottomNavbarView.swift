@@ -29,7 +29,7 @@ struct BottomNavbarView: View {
         .frame(width: (80 / 100) * UIScreen.main.bounds.width)
         .frame(height: (5 / 100) * UIScreen.main.bounds.height)
         .padding()
-        .background(VisualEffectBlur(blurStyle: .systemChromeMaterial))
+        .background(VisualEffectBlur(blurStyle: .systemChromeMaterial).opacity(0.93))
         .cornerRadius(35)
         .shadow(color: .gray.opacity(0.5), radius: 2)
     }

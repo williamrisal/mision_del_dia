@@ -21,7 +21,7 @@ struct SoldView: View {
         }
         .foregroundColor(.white)
         .padding(5)
-        .background(VisualEffectBlur(blurStyle: .dark))
+        .background(VisualEffectBlur(blurStyle: .dark).opacity(0.8))
         .cornerRadius(10)
     }
 }
