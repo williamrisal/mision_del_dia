@@ -11,8 +11,12 @@ struct TopNavBarView: View {
     @State private var show = false
 
     var body: some View {
-        HStack{
-            ButtonGainComponent(TextButton: "5000")
+        HStack {
+            HStack {
+                SoldView(Coin: "926.02")
+            }
+            .padding(15)
+            .frame(height: (10 / 100) * UIScreen.main.bounds.height)
             Spacer()
             
             HStack{
@@ -42,7 +46,6 @@ struct TopNavBarView: View {
                 .foregroundColor(.white)
                     .opacity(0.8)
             }
-
         }
         .padding()
     }
