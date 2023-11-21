@@ -47,7 +47,7 @@ struct TopNavBarView: View {
                     .opacity(0.8)
             }
         }
-        .padding()
+        .padding(.bottom, 20)
     }
 }
 

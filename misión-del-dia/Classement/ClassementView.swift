@@ -14,6 +14,7 @@ struct ClassementView: View {
             VStack{
                 ClassementComponent(ButtonActivate: true)
                     .padding(.top, -30)
+                
             }
         }
     }

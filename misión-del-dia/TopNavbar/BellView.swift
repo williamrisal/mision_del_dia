@@ -10,7 +10,7 @@ import SwiftUI
 struct BellView: View {
     var body: some View {
         ZStack{
-            Text("Il n'y rien ici pour le moment. 😬")
+            Text("No hay nada aquí por el momento. 😬")
                 .padding()
                 .foregroundColor(.blue)
                 .bold()
