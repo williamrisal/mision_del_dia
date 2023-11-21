@@ -34,7 +34,6 @@ struct TopNavBarView: View {
                 })
                 
                 Button(action: {
-                    
                 }, label: {
                     Image(systemName: "ellipsis.circle")
                         .resizable()
