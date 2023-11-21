@@ -48,10 +48,10 @@ struct ClassementComponent: View {
                                 VStack{
                                     Image(systemName: "medal.fill")
                                         .resizable()
-                                        .frame(width: 33, height: 28)
+                                        .frame(width: 30, height: 30)
                                         .foregroundColor(index == 0 ? .yellow : index == 1 ? .gray : index == 2 ? .brown : .white.opacity(0))
-                                        .padding(.leading, -35)
-                                         .padding(.top, 40)
+                                        .padding(.leading, -25)
+                                         .padding(.top, 35)
                                 }
                             }
                             VStack(alignment: .leading) {

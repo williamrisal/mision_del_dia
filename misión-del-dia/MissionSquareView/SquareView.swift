@@ -9,8 +9,8 @@ import SwiftUI
 
 struct SquareView: View {
     var body: some View {
-        TopNavBarView()
         VStack {
+            Spacer()
             Rectangle()
                 .fill(Color.white)
                 .overlay(
@@ -31,7 +31,6 @@ struct SquareView: View {
                     }
                 )
                 .zIndex(1)
-
 
             Rectangle()
                 .fill(Color.white)

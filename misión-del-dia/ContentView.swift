@@ -8,6 +8,9 @@ struct ContentView: View {
             viewLoad == 0 ? BackgroundView(value: 0) : viewLoad == 1 ? BackgroundView(value: 1) : BackgroundView(value: 2)
 
             VStack {
+                if viewLoad != 0 {
+                    TopNavBarView()
+                }
                 switch viewLoad {
                 case 0:
                     RewardsView()
