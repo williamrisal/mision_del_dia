@@ -10,7 +10,6 @@ import SwiftUI
 struct SquareView: View {
     var body: some View {
         VStack {
-            Spacer()
             Rectangle()
                 .fill(Color.white)
                 .overlay(
