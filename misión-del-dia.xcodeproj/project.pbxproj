@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17140A4F2B0D0BDE00C032C2 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17140A4E2B0D0BDE00C032C2 /* Reward.swift */; };
+		17140A512B0D0C6700C032C2 /* Sold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17140A502B0D0C6700C032C2 /* Sold.swift */; };
+		17140A552B0D0D5700C032C2 /* Buy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17140A542B0D0D5700C032C2 /* Buy.swift */; };
 		175DB53C2B052214008A0D83 /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DB53B2B052214008A0D83 /* Rewards.swift */; };
 		7A042A6D2B0BE927000D7760 /* BubblePopupCOmponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A042A6C2B0BE927000D7760 /* BubblePopupCOmponent.swift */; };
 		7A042A6F2B0BEB46000D7760 /* BellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A042A6E2B0BEB46000D7760 /* BellView.swift */; };
@@ -28,8 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17140A4E2B0D0BDE00C032C2 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		17140A502B0D0C6700C032C2 /* Sold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sold.swift; sourceTree = "<group>"; };
+		17140A542B0D0D5700C032C2 /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
 		175DB53B2B052214008A0D83 /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
-		17941E4B2B07D794006DCA44 /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
 		7A042A6C2B0BE927000D7760 /* BubblePopupCOmponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopupCOmponent.swift; sourceTree = "<group>"; };
 		7A042A6E2B0BEB46000D7760 /* BellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellView.swift; sourceTree = "<group>"; };
 		7A07A62D2B078272007B198D /* ClassementDetaileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementDetaileView.swift; sourceTree = "<group>"; };
@@ -66,7 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				175DB53B2B052214008A0D83 /* Rewards.swift */,
-				17941E4B2B07D794006DCA44 /* Buy.swift */,
+				17140A4E2B0D0BDE00C032C2 /* Reward.swift */,
+				17140A542B0D0D5700C032C2 /* Buy.swift */,
 			);
 			path = Rewards;
 			sourceTree = "<group>";
@@ -111,6 +117,7 @@
 				7A3438902B0128A50025629D /* Assets.xcassets */,
 				7A3438922B0128A50025629D /* misio_n_del_dia.entitlements */,
 				7A3438932B0128A50025629D /* Preview Content */,
+				17140A502B0D0C6700C032C2 /* Sold.swift */,
 			);
 			path = "misión-del-dia";
 			sourceTree = "<group>";
@@ -254,6 +261,7 @@
 			files = (
 				7A34388F2B0128A00025629D /* ContentView.swift in Sources */,
 				7A07A6392B0A97AC007B198D /* ButtonGainComponent.swift in Sources */,
+				17140A552B0D0D5700C032C2 /* Buy.swift in Sources */,
 				175DB53C2B052214008A0D83 /* Rewards.swift in Sources */,
 				7A042A6F2B0BEB46000D7760 /* BellView.swift in Sources */,
 				7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */,
@@ -261,9 +269,11 @@
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
 				7A3438A32B012F190025629D /* BlurView.swift in Sources */,
 				7A3438A82B012F540025629D /* BackgroundView.swift in Sources */,
+				17140A512B0D0C6700C032C2 /* Sold.swift in Sources */,
 				7AA4526B2B0B549300181E26 /* TopNavBarView.swift in Sources */,
 				7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */,
 				7A042A6D2B0BE927000D7760 /* BubblePopupCOmponent.swift in Sources */,
+				17140A4F2B0D0BDE00C032C2 /* Reward.swift in Sources */,
 				7A3438A62B012F390025629D /* Ressources.swift in Sources */,
 				7A34389C2B0129C80025629D /* ProfilView.swift in Sources */,
 				7A07A6322B078469007B198D /* ClassementComponent.swift in Sources */,

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SquareView: View {
     var body: some View {
+        TopNavBarView()
         VStack {
             Rectangle()
                 .fill(Color.white)
