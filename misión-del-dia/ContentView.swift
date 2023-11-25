@@ -24,7 +24,7 @@ struct ContentView: View {
                             
                         }.padding(.vertical, 40)
                     case 2:
-                        Text("2")
+                        AccountProfilView()
                     default:
                         ClassementView()
                         

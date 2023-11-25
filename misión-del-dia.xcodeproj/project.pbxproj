@@ -26,7 +26,13 @@
 		7A3438A32B012F190025629D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A22B012F190025629D /* BlurView.swift */; };
 		7A3438A62B012F390025629D /* Ressources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A52B012F390025629D /* Ressources.swift */; };
 		7A3438A82B012F540025629D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3438A72B012F540025629D /* BackgroundView.swift */; };
+		7A56721F2B128563008F7D19 /* AccountProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A56721E2B128563008F7D19 /* AccountProfilView.swift */; };
 		7AA4526B2B0B549300181E26 /* TopNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4526A2B0B549300181E26 /* TopNavBarView.swift */; };
+		7AD0D6D82B0FC81F00B63309 /* TikTokOpenAuthSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7AD0D6D72B0FC81F00B63309 /* TikTokOpenAuthSDK */; };
+		7AD0D6DA2B0FC81F00B63309 /* TikTokOpenSDKCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7AD0D6D92B0FC81F00B63309 /* TikTokOpenSDKCore */; };
+		7AD0D6DC2B0FC81F00B63309 /* TikTokOpenShareSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7AD0D6DB2B0FC81F00B63309 /* TikTokOpenShareSDK */; };
+		7AD0D6E02B0FCC3E00B63309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0D6DF2B0FCC3E00B63309 /* AppDelegate.swift */; };
+		7AD0D6E82B0FD75F00B63309 /* TikTokAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0D6E72B0FD75F00B63309 /* TikTokAuthManager.swift */; };
 		7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +58,11 @@
 		7A3438A22B012F190025629D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		7A3438A52B012F390025629D /* Ressources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ressources.swift; sourceTree = "<group>"; };
 		7A3438A72B012F540025629D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		7A56721E2B128563008F7D19 /* AccountProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountProfilView.swift; sourceTree = "<group>"; };
 		7AA4526A2B0B549300181E26 /* TopNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavBarView.swift; sourceTree = "<group>"; };
+		7AD0D6DD2B0FC8E300B63309 /* misio-n-del-dia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "misio-n-del-dia-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7AD0D6DF2B0FCC3E00B63309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AD0D6E72B0FD75F00B63309 /* TikTokAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokAuthManager.swift; sourceTree = "<group>"; };
 		7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD0D6DA2B0FC81F00B63309 /* TikTokOpenSDKCore in Frameworks */,
+				7AD0D6DC2B0FC81F00B63309 /* TikTokOpenShareSDK in Frameworks */,
+				7AD0D6D82B0FC81F00B63309 /* TikTokOpenAuthSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +117,9 @@
 		7A34388B2B0128A00025629D /* misión-del-dia */ = {
 			isa = PBXGroup;
 			children = (
+				7A56721A2B1284F6008F7D19 /* Profil */,
+				7AD0D6DE2B0FCC2B00B63309 /* TIKTOK */,
+				7AD0D6DD2B0FC8E300B63309 /* misio-n-del-dia-Info.plist */,
 				7AA452692B0B547500181E26 /* TopNavbar */,
 				7A07A6352B0A93AC007B198D /* MissionSquareView */,
 				7A7E610D2B06557B00ACA957 /* Tools */,
@@ -149,6 +165,14 @@
 			path = Ressources;
 			sourceTree = "<group>";
 		};
+		7A56721A2B1284F6008F7D19 /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				7A56721E2B128563008F7D19 /* AccountProfilView.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
 		7A7E61032B06530000ACA957 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +196,15 @@
 				7A042A6E2B0BEB46000D7760 /* BellView.swift */,
 			);
 			path = TopNavbar;
+			sourceTree = "<group>";
+		};
+		7AD0D6DE2B0FCC2B00B63309 /* TIKTOK */ = {
+			isa = PBXGroup;
+			children = (
+				7AD0D6DF2B0FCC3E00B63309 /* AppDelegate.swift */,
+				7AD0D6E72B0FD75F00B63309 /* TikTokAuthManager.swift */,
+			);
+			path = TIKTOK;
 			sourceTree = "<group>";
 		};
 		7AE4B58A2B03B04F00FC91DB /* Classement */ = {
@@ -201,6 +234,9 @@
 			);
 			name = "misión-del-dia";
 			packageProductDependencies = (
+				7AD0D6D72B0FC81F00B63309 /* TikTokOpenAuthSDK */,
+				7AD0D6D92B0FC81F00B63309 /* TikTokOpenSDKCore */,
+				7AD0D6DB2B0FC81F00B63309 /* TikTokOpenShareSDK */,
 			);
 			productName = "misión-del-dia";
 			productReference = 7A3438892B0128A00025629D /* misión-del-dia.app */;
@@ -232,6 +268,7 @@
 			);
 			mainGroup = 7A3438802B0128A00025629D;
 			packageReferences = (
+				7AD0D6D62B0FC81F00B63309 /* XCRemoteSwiftPackageReference "tiktok-opensdk-ios" */,
 			);
 			productRefGroup = 7A34388A2B0128A00025629D /* Products */;
 			projectDirPath = "";
@@ -264,11 +301,14 @@
 				17140A552B0D0D5700C032C2 /* Buy.swift in Sources */,
 				175DB53C2B052214008A0D83 /* Rewards.swift in Sources */,
 				7A042A6F2B0BEB46000D7760 /* BellView.swift in Sources */,
+				7AD0D6E82B0FD75F00B63309 /* TikTokAuthManager.swift in Sources */,
 				7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */,
 				7A07A6372B0A93B9007B198D /* SquareView.swift in Sources */,
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
+				7AD0D6E02B0FCC3E00B63309 /* AppDelegate.swift in Sources */,
 				7A3438A32B012F190025629D /* BlurView.swift in Sources */,
 				7A3438A82B012F540025629D /* BackgroundView.swift in Sources */,
+				7A56721F2B128563008F7D19 /* AccountProfilView.swift in Sources */,
 				17140A512B0D0C6700C032C2 /* Sold.swift in Sources */,
 				7AA4526B2B0B549300181E26 /* TopNavBarView.swift in Sources */,
 				7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */,
@@ -407,10 +447,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"misión-del-dia/Preview Content\"";
-				DEVELOPMENT_TEAM = 5HTBBBGAM5;
+				DEVELOPMENT_TEAM = 4PPD777XXG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "misio-n-del-dia-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -445,10 +486,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"misión-del-dia/Preview Content\"";
-				DEVELOPMENT_TEAM = 5HTBBBGAM5;
+				DEVELOPMENT_TEAM = 4PPD777XXG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "misio-n-del-dia-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -496,6 +538,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AD0D6D62B0FC81F00B63309 /* XCRemoteSwiftPackageReference "tiktok-opensdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tiktok/tiktok-opensdk-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7AD0D6D72B0FC81F00B63309 /* TikTokOpenAuthSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AD0D6D62B0FC81F00B63309 /* XCRemoteSwiftPackageReference "tiktok-opensdk-ios" */;
+			productName = TikTokOpenAuthSDK;
+		};
+		7AD0D6D92B0FC81F00B63309 /* TikTokOpenSDKCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AD0D6D62B0FC81F00B63309 /* XCRemoteSwiftPackageReference "tiktok-opensdk-ios" */;
+			productName = TikTokOpenSDKCore;
+		};
+		7AD0D6DB2B0FC81F00B63309 /* TikTokOpenShareSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AD0D6D62B0FC81F00B63309 /* XCRemoteSwiftPackageReference "tiktok-opensdk-ios" */;
+			productName = TikTokOpenShareSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A3438812B0128A00025629D /* Project object */;
 }
