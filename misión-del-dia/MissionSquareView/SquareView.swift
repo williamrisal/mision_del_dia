@@ -13,8 +13,8 @@ struct SquareView: View {
             Rectangle()
                 .fill(Color.white)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color.red.opacity(0.8), lineWidth: 20)
+                    RoundedRectangle(cornerRadius: 7)
+                        .stroke(Color.red.opacity(0.9), lineWidth: 15)
                 )
                 .opacity(0.9)
                 .frame(width: 130, height: 70)
@@ -23,30 +23,37 @@ struct SquareView: View {
                 .padding(.bottom, -35)
                 .overlay(
                     VStack{
-                        Text("10:20:21")
-                            .fontWeight(.bold)
-                            .foregroundColor(Color.red.opacity(0.8))
-                            .padding(.top, 36)
+                        //remainingSeconde recupere dans la base de donée
+                        CountdownView(remainingSeconds: 12 * 60 * 60)
                     }
                 )
                 .zIndex(1)
 
             Rectangle()
                 .fill(Color.white)
-                .opacity(0.9)
+                .opacity(1)
                 .frame(width: 360, height: 200)
                 .cornerRadius(15)
-                .shadow(color: Color.gray, radius: 5, x: 0, y: 2)
+                .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 0)
                 .overlay(
                     VStack{
+                        Spacer()
                         Text("\"Venez en cours en pyjama\"")
                             .font(.title2)
                             .bold()
                             .foregroundColor(.blue)
-                        
-                        ButtonGainComponent(TextButton: "8000")
+                        Text("⭐️⭐️⭐️")
+                            .font(.title3)
+                            .bold()
+                            .foregroundColor(.yellow)
+                        HStack {
+                            Spacer()
+                            ButtonGainComponent(TextButton: "100")
+                                .padding(15)
+                        }
                     }
                 )
+            
             Button(action: {}) {
                 Text("Publier")
                     .font(.subheadline)
@@ -62,7 +69,6 @@ struct SquareView: View {
                 RoundedRectangle(cornerRadius: 80)
                     .stroke(Color.white, lineWidth: 10)
             ).padding(.top, -35)
-
         }
         .padding(.top, -80)
     }

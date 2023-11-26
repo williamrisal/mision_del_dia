@@ -11,18 +11,19 @@ struct ButtonGainComponent: View {
     @State  var TextButton: String;
     var body: some View {
         Button(action: {}) {
-            Text(TextButton + " 💰")
+            Text(TextButton + " 🎁")
                 .font(.subheadline)
                 .bold()
                 .padding(10)
-                .foregroundColor(.black)
-                .background(Color.orange)
-                .cornerRadius(15)
+                .foregroundColor(.white)
+                .background(VisualEffectBlur(blurStyle: .dark).opacity(0.4))
+                .cornerRadius(10)
         }
         .overlay(
-            RoundedRectangle(cornerRadius: 15)
-                .stroke(Color.gray, lineWidth: 3)
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.black, lineWidth: 0.1)
         )
+        .shadow(color: Color.white, radius: 1)
     }
 }
 

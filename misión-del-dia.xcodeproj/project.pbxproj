@@ -11,6 +11,7 @@
 		17140A512B0D0C6700C032C2 /* Sold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17140A502B0D0C6700C032C2 /* Sold.swift */; };
 		17140A552B0D0D5700C032C2 /* Buy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17140A542B0D0D5700C032C2 /* Buy.swift */; };
 		175DB53C2B052214008A0D83 /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DB53B2B052214008A0D83 /* Rewards.swift */; };
+		17D5E7E82B139B6D00B8D797 /* CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5E7E72B139B6D00B8D797 /* CountDown.swift */; };
 		7A042A6D2B0BE927000D7760 /* BubblePopupCOmponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A042A6C2B0BE927000D7760 /* BubblePopupCOmponent.swift */; };
 		7A042A6F2B0BEB46000D7760 /* BellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A042A6E2B0BEB46000D7760 /* BellView.swift */; };
 		7A07A62E2B078272007B198D /* ClassementDetaileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07A62D2B078272007B198D /* ClassementDetaileView.swift */; };
@@ -41,6 +42,7 @@
 		17140A502B0D0C6700C032C2 /* Sold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sold.swift; sourceTree = "<group>"; };
 		17140A542B0D0D5700C032C2 /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
 		175DB53B2B052214008A0D83 /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
+		17D5E7E72B139B6D00B8D797 /* CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDown.swift; sourceTree = "<group>"; };
 		7A042A6C2B0BE927000D7760 /* BubblePopupCOmponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopupCOmponent.swift; sourceTree = "<group>"; };
 		7A042A6E2B0BEB46000D7760 /* BellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellView.swift; sourceTree = "<group>"; };
 		7A07A62D2B078272007B198D /* ClassementDetaileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementDetaileView.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				7A07A6382B0A97AC007B198D /* ButtonGainComponent.swift */,
 				7A042A6C2B0BE927000D7760 /* BubblePopupCOmponent.swift */,
+				17D5E7E72B139B6D00B8D797 /* CountDown.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				7A34388F2B0128A00025629D /* ContentView.swift in Sources */,
 				7A07A6392B0A97AC007B198D /* ButtonGainComponent.swift in Sources */,
 				17140A552B0D0D5700C032C2 /* Buy.swift in Sources */,
+				17D5E7E82B139B6D00B8D797 /* CountDown.swift in Sources */,
 				175DB53C2B052214008A0D83 /* Rewards.swift in Sources */,
 				7A042A6F2B0BEB46000D7760 /* BellView.swift in Sources */,
 				7AD0D6E82B0FD75F00B63309 /* TikTokAuthManager.swift in Sources */,

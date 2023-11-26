@@ -28,10 +28,20 @@ struct ClassementComponent: View {
     @State var ButtonActivate: Bool
 
     var body: some View {
-        
-        ZStack {
+        VStack {
+            HStack {
+                Image(systemName: "trophy")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .foregroundColor(.white)
+                Text("Classement")
+                    .font(.title)
+                    .bold()
+                    .foregroundColor(.white)
+                Spacer()
+            }
+            .padding(.horizontal, 25)
             List {
-                
                 ForEach(Array((ButtonActivate ? Array(players.prefix(3)) : Array(players)).sorted(by: { $0.scoreVue > $1.scoreVue }).enumerated()), id: \.1.id) { index, player in
                     ZStack {
                         HStack {
@@ -40,24 +50,25 @@ struct ClassementComponent: View {
                                     Image(systemName: "person")
                                         .resizable()
                                         .frame(width: 30, height: 30)
-                                        .foregroundColor(.gray)
+                                        .foregroundColor(.white)
                                 }
                                 .frame(width: 70, height: 70)
                                 .clipShape(Circle())
-                                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                                .overlay(Circle().stroke(Color.white, lineWidth: 2.5))
                                 VStack{
                                     Image(systemName: "medal.fill")
                                         .resizable()
-                                        .frame(width: 30, height: 30)
+                                        .frame(width: 25, height: 25)
                                         .foregroundColor(index == 0 ? .yellow : index == 1 ? .gray : index == 2 ? .brown : .white.opacity(0))
                                         .padding(.leading, -25)
-                                         .padding(.top, 35)
+                                        .padding(.top, 45)
                                 }
                             }
                             VStack(alignment: .leading) {
                                 Text(player.MainName)
                                     .foregroundColor(.white)
                                     .bold()
+                                    .padding(.leading, -15)
                                 Text(player.Pseudo)
                                     .foregroundColor(.white)
                                     .opacity(0.9)
@@ -80,7 +91,7 @@ struct ClassementComponent: View {
                 }
                 .listRowSeparatorTint(.white)
                 .listRowBackground(Color.clear)
-                if ButtonActivate {
+                 if ButtonActivate {
                     HStack{
                         Spacer()
                         Button(action: {
@@ -104,13 +115,11 @@ struct ClassementComponent: View {
                     .listRowBackground(Color.clear)
                 }
             }
+            .padding(.top, -30)
             .scrollContentBackground(.hidden)
             .sheet(isPresented: $isClassementDetailVisible) {
                 ClassementDetaileView()
             }
-
-
         }
-
     }
 }

@@ -41,7 +41,7 @@ struct AccountProfilView: View {
                             .bold()
                             .foregroundColor(.white)
                             .padding()
-                            .background(BackgroundView(value: 2))
+                            .background(BackgroundView(value: 3))
                             .cornerRadius(59)
                     }
                 }
