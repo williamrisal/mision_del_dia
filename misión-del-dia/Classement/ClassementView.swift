@@ -9,36 +9,40 @@ import SwiftUI
 
 struct ClassementView: View {
     var body: some View {
-        VStack {
-            HStack {
-                Image(systemName: "pencil.and.ruler")
-                    .resizable()
-                    .frame(width: 30, height: 30)
-                    .foregroundColor(.white)
-                Text("Regles")
-                    .font(.title)
-                    .bold()
-                    .foregroundColor(.white)
-                Spacer()
+        VStack{
+            VStack {
+                HStack {
+                    Image(systemName: "pencil.and.ruler")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .foregroundColor(.white)
+                    Text("Regles")
+                        .font(.title)
+                        .bold()
+                        .foregroundColor(.white)
+                    Spacer()
+                }
+                .padding(.top, 20)
+                HStack {
+                    Text("faire @blablabla")
+                        .font(.title3)
+                        .foregroundColor(.white.opacity(0.7))
+                    Spacer()
+                }
+                HStack {
+                    Text("mettre @bloubloublou")
+                        .font(.title3)
+                        .foregroundColor(.white.opacity(0.7))
+                    Spacer()
+                }
             }
-            .padding(.top, 20)
-            HStack {
-                Text("faire @blablabla")
-                    .font(.title3)
-                    .foregroundColor(.white.opacity(0.7))
-                Spacer()
-            }
-            HStack {
-            Text("mettre @bloubloublou")
-                .font(.title3)
-                .foregroundColor(.white.opacity(0.7))
-                Spacer()
-            }
-        }
-        .padding(.horizontal, 25)
-        ClassementComponent(ButtonActivate: true)
-            .padding(.top, 10)
-     }
+            ClassementComponent(ButtonActivate: true)
+                .padding(.top, 10)
+        }.padding(.horizontal, 25)
+            .padding(.bottom, 100)
+
+    }
+    
 }
 
 

@@ -35,6 +35,7 @@ struct AccountProfilView: View {
                         .bold()
                         .foregroundColor(.blue)
                     Button(action: {
+                        TikTokAuthManager().authenticate()
                     }) {
                         
                         Text("Vincular mi cuenta de TikTok")

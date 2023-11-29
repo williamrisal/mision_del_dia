@@ -15,11 +15,10 @@ struct ContentView: View {
                     case 0:
                         RewardsView()
                     case 1:
-                        VStack{
-                                SquareView()
-                                    .zIndex(1)
+                        ScrollView{
+                            SquareView()
                             ClassementView()
-                        }.padding(.vertical, 40)
+                        }.zIndex(1)
                     case 2:
                         AccountProfilView()
                     default:

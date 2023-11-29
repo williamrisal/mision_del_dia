@@ -32,7 +32,6 @@
 		7AD0D6D82B0FC81F00B63309 /* TikTokOpenAuthSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7AD0D6D72B0FC81F00B63309 /* TikTokOpenAuthSDK */; };
 		7AD0D6DA2B0FC81F00B63309 /* TikTokOpenSDKCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7AD0D6D92B0FC81F00B63309 /* TikTokOpenSDKCore */; };
 		7AD0D6DC2B0FC81F00B63309 /* TikTokOpenShareSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7AD0D6DB2B0FC81F00B63309 /* TikTokOpenShareSDK */; };
-		7AD0D6E02B0FCC3E00B63309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0D6DF2B0FCC3E00B63309 /* AppDelegate.swift */; };
 		7AD0D6E82B0FD75F00B63309 /* TikTokAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0D6E72B0FD75F00B63309 /* TikTokAuthManager.swift */; };
 		7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */; };
 /* End PBXBuildFile section */
@@ -63,7 +62,6 @@
 		7A56721E2B128563008F7D19 /* AccountProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountProfilView.swift; sourceTree = "<group>"; };
 		7AA4526A2B0B549300181E26 /* TopNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavBarView.swift; sourceTree = "<group>"; };
 		7AD0D6DD2B0FC8E300B63309 /* misio-n-del-dia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "misio-n-del-dia-Info.plist"; sourceTree = SOURCE_ROOT; };
-		7AD0D6DF2B0FCC3E00B63309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AD0D6E72B0FD75F00B63309 /* TikTokAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokAuthManager.swift; sourceTree = "<group>"; };
 		7AE4B58B2B03B05D00FC91DB /* ClassementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,7 +202,6 @@
 		7AD0D6DE2B0FCC2B00B63309 /* TIKTOK */ = {
 			isa = PBXGroup;
 			children = (
-				7AD0D6DF2B0FCC3E00B63309 /* AppDelegate.swift */,
 				7AD0D6E72B0FD75F00B63309 /* TikTokAuthManager.swift */,
 			);
 			path = TIKTOK;
@@ -309,7 +306,6 @@
 				7AE4B58C2B03B05D00FC91DB /* ClassementView.swift in Sources */,
 				7A07A6372B0A93B9007B198D /* SquareView.swift in Sources */,
 				7A34388D2B0128A00025629D /* misio_n_del_diaApp.swift in Sources */,
-				7AD0D6E02B0FCC3E00B63309 /* AppDelegate.swift in Sources */,
 				7A3438A32B012F190025629D /* BlurView.swift in Sources */,
 				7A3438A82B012F540025629D /* BackgroundView.swift in Sources */,
 				7A56721F2B128563008F7D19 /* AccountProfilView.swift in Sources */,

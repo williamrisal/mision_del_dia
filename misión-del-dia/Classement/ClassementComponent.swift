@@ -40,8 +40,9 @@ struct ClassementComponent: View {
                     .foregroundColor(.white)
                 Spacer()
             }
-            .padding(.horizontal, 25)
-            List {
+            .padding(.bottom, 30)
+
+            VStack {
                 ForEach(Array((ButtonActivate ? Array(players.prefix(3)) : Array(players)).sorted(by: { $0.scoreVue > $1.scoreVue }).enumerated()), id: \.1.id) { index, player in
                     ZStack {
                         HStack {
@@ -117,6 +118,7 @@ struct ClassementComponent: View {
             }
             .padding(.top, -30)
             .scrollContentBackground(.hidden)
+            .scrollDisabled(true)
             .sheet(isPresented: $isClassementDetailVisible) {
                 ClassementDetaileView()
             }
