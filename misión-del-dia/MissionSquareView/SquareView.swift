@@ -70,6 +70,7 @@ struct SquareView: View {
                     .stroke(Color.white, lineWidth: 10)
             ).padding(.top, -35)
         }
+        .padding(.top, 35)
     }
 }
 

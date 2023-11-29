@@ -9,7 +9,7 @@ struct ContentView: View {
 
                 VStack {
                     if viewLoad != 0 {
-                        TopNavBarView()
+                        TopNavBarView().zIndex(1)
                     }
                     switch viewLoad {
                     case 0:
@@ -18,7 +18,7 @@ struct ContentView: View {
                         ScrollView{
                             SquareView()
                             ClassementView()
-                        }.zIndex(1)
+                        }
                     case 2:
                         AccountProfilView()
                     default:

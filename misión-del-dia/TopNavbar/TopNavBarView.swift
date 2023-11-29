@@ -48,7 +48,7 @@ struct TopNavBarView: View {
             }
             .padding(.horizontal, 15)
         }
-        .padding(.bottom, -16)
+        .padding(.bottom, -96)
     }
 }
 
